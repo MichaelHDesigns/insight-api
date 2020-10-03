@@ -3,7 +3,7 @@ var should = require('should');
 var sinon = require('sinon');
 var helpthehomeless = require('@Altcoin-Cash/helpthehomeless-lib');
 var TxController = require('../lib/transactions');
-var _ = require('lohelpthehomeless');
+var _ = require('lodash');
 
 describe('Transactions', function() {
   describe('/tx/:txid', function() {
