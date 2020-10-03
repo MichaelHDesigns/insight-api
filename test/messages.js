@@ -4,7 +4,7 @@ var should = require('should');
 var sinon = require('sinon');
 var MessagesController = require('../lib/messages');
 var helpthehomeless = require('@Altcoin-Cash/helpthehomeless-lib');
-var _ = require('lohelpthehomeless');
+var _ = require('lodash');
 
 describe('Messages', function() {
 
